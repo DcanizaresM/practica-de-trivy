@@ -29,4 +29,3 @@ jobs:
       - name: Ejecutar escáner de Trivy
         run: |
           bash docker-scan.sh
-          exit 1
